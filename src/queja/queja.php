@@ -1,3 +1,6 @@
+<?php
+	include("/conf/conexion.php");
+?>
 <body>
 	<h2>Pubicar Queja</h2>
 	<form method="post">

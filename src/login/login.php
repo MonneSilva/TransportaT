@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Iniciar sesión</title>
-        <script src="../../js/jquery-3.3.1.js"></script>
-        <link rel="stylesheet" type="text/css" href="../../css/login.css">
-        <!-- Para mostrar mensajes flash bonitos -->
-    </head>
-    <body>
+<?php
+	include("/conf/conexion.php");
+?>
+
+<body>
         <div class="" id="main-container">
             <h1>TransportaT</h1>
             <form id="acceso" action="" class="" method="post">
@@ -21,4 +16,4 @@
             </form>
         </div>
    </body>
-</html>
+
