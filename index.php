@@ -1,5 +1,5 @@
 <?php
-	
+	include("conf/conexion.php");
     $pagina = isset($_GET['link']) ? strtolower($_GET['link']) : 'main';
     // El fragmento de html que contiene la cabecera de nuestra web
     require_once 'src/header/header.php';
