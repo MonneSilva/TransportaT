@@ -1,9 +1,6 @@
-<?php
-	include("/conf/conexion.php");
-?>
 <body>
 	<h2>Pubicar Queja</h2>
-	<form method="post">
+	<form>
 		
 	<input type="text" name="tituloQueja" class="input" placeholder="Titulo" size="80">
 	<br><br>
@@ -12,4 +9,4 @@
 	<input type="submit" name="">
 	
 	</form>
-</body>
+</body> 

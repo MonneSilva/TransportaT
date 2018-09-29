@@ -3,15 +3,6 @@
     padding: 0px;
 }
 
-
-body {
-    background-image: url('../res/login/imagenlogin.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Arial', sans-serif;
-}
-
 .campo {
     display: block;
     margin: 18px auto;

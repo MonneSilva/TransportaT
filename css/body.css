@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	color: white;
+}
+/*----*/
+body{
+    background-image: url('../res/login/imagenlogin.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+#cuerpo_inv{
+	margin: auto;
+	position: relative;
+	width: 97%;
+	height: auto;
+	min-height: 900px;
+	
+	border: 1px solid #9c1f4d;
+}
+#cuerpo_fondo{
+	margin: auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+	opacity: .23;
+}
+#cuerpo_cont{
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+} 
+/*	---- los tres divs anteriores corresponden al bloque del cuerpo de la página: */
+				/* ---- El inv reserva el espacio que usará	----	*/
+				/* ---- El cuerpo_fondo pone el background dentro del espacio reservado */
+				/* ---- El cuerpo_cont es el div donde meteremos las distintas páginas a utilizar 
+				en la web para que se carguen dentro del cuerpo establecido */
+		/* --- -----------------------------------------------------------------------------------*/
+#divsito{
+	width: 100%;
+	height: 5.7%;
+	background-color: #bb285c;
+	text-align: center;
+	text-shadow:  2px 2px #9c1f4d;
+}
+#divsito2{
+	font-size: 25px;
+	color: white;
+	width: 100%;
+	height: 4%;
+	background-color: #bb285c;
+	text-align: center;
+	text-shadow:  2px 2px #9c1f4d;
+}
+
+/* --- divsito 1 y 2, corresponden a los bloques donde aparece el nombre de las secciones principales 
+										y las subsecciones del menú de administrador respectivamente */
+
+
+
+#cuerpo_cont table.galeria{
+	margin: auto;
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	border: 1px;
+
+}
+#galeria_imagen{
+	width: 50%;
+}
+
+#cuerpo_cont p{
+	margin: auto;	
+	font-size: 35px;
+}
