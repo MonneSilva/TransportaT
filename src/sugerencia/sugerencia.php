@@ -1,6 +1,6 @@
 <body>
 	<h2>Pubicar Sugerencia</h2>
-	<form>
+	<form method="post">
 		
 	<input type="text" name="tituloQueja" class="input" placeholder="Titulo" size="80">
 	<br><br>
