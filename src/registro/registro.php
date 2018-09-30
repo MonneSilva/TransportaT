@@ -9,19 +9,22 @@
 
 <body>
 	<section calss="formulario">
-	<form action=" ">
-
-		<p id="titulo">REGISTRO </p>  </div>
-    
-       Nombre: <input type="Text" class="input" name="im" placeholder="Nombre de usuario"> 
-   
-        Contraseñ <input type="Text" class="input" name="" placeholder="Contraseña"> 
-  
-        No. tarjeta <input type="Text" class="input" name="" placeholder="No. de tarjeta "> 
-        	Id. generado <label id="lbl_id" value="">Arroja aqui el id generado en la base de datos</label>
-
-    	<input type="submit" class="sumbit" name=" " value="Registrarme">
+        <div id="cuerpo">
+	<form id="registro" action=" ">
+        <div id="datos">
+		<p id="titulo">REGISTRO </p> 
+       Nombre: <input type="Text" class="input" name=""  id="campo" placeholder="Nombre de usuario"> <br><br>
+       Contraseña:  <input type="Text" class="input" name=""  id="campo" placeholder="Contraseña"> <br><br>
+       No. tarjeta:  <input type="Text" class="input" name=""  id="campo" placeholder="No.de tarjeta "> <br><br>
+       Id. generado:  <label id="lbl_id" value=" hola funciono">Aqui va el id</label>
+   </div>
+        <div id="control">
+        <div id="boton" >
+    	<input type="submit" class="sumbit" id="registrar" name="registrar" value="Registrar">
+    </div>
+    </div>
 </form>	
+</div>
  </section>
 
 
