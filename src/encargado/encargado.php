@@ -9,20 +9,20 @@
 <body>
 
 
-    <section id="preferencias">
+    <div id="preferencias">
     	<h4>Asignar preferencias </h4>
      <div id="preferencias"></div>
      <input type="text" id="campo" name="user" value="Nombre de inicio"><br><br>
      <input type="text" id="campo" name="id_user" value="Id de usuario ">
 
-      </section>
+      </div>
 
-	<section id="verQuejas">
+	<div id="verQuejas">
 		<h4>Ver Quejas </h4>
-      <button>Por unidad</button>
-      <button>Por operador</button>
+      <button id="btn-unidad">Por unidad</button>
+      <button id="btn-unidad">Por operador</button>
 
-	</section>
+	</div>
 	
 
 	
