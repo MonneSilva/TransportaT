@@ -1,5 +1,5 @@
 <?php
-$id=$_GET['id']
+$id=$_GET['usuario']
 ?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link rel="stylesheet" type="text/css" href="css/profiles.css">
@@ -20,7 +20,7 @@ $id=$_GET['id']
  
   //Paso 3: Cadena de Alta de tipo de pagos
 
-$Query="SELECT * FROM `PASAJERO` WHERE IDPASAJERO=".$id;
+$Query="SELECT * FROM `PASAJERO` WHERE usuario=".$id;
   $Reciente= mysqli_query($Link,$Query);
 //Obtener todos los registros de la tabla
 while ($Opc= mysqli_fetch_array($Reciente, MYSQLI_BOTH))
