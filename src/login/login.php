@@ -10,7 +10,7 @@
     <body>
         <div class="" id="main-container">
           
-            <form id="acceso" action="" class="" method="post">
+            <form id="acceso" action="perfil/porfile.php" class="" method="post">
                 <input type="email"  id="userAcceso" name="userAcceso" class="campo" placeholder="Nombre Usuario" autofocus maxlength="65" required>
                 <input type="password" name="passAcceso" id="passAcceso" class="campo" placeholder="Password" maxlength="85" required>
                 <div class="" id="control">
