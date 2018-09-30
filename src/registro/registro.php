@@ -18,7 +18,7 @@
         Contraseñ <input type="Text" class="input" name="" placeholder="Contraseña"> 
   
         No. tarjeta <input type="Text" class="input" name="" placeholder="No. de tarjeta "> 
-        	Id. generado <label id="lbl_id" value=" hola funciono">Hola</label>
+        	Id. generado <label id="lbl_id" value="">Arroja aqui el id generado en la base de datos</label>
 
     	<input type="submit" class="sumbit" name=" " value="Registrarme">
 </form>	
