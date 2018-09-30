@@ -40,7 +40,7 @@ echo $Opc1['tarjeta_idtarjeta'];
 ?></h1>
     <h1>Tipo de Tarjeta:</h1>
     <h1 class="center"> <?php
-      $Query="SELECT * FROM `PASAJERO` WHERE IDPASAJERO=".$id;
+      $Query="SELECT * FROM `PASAJERO` WHERE usuario=".$id;
   $Reciente= mysqli_query($Link,$Query);
 //Obtener todos los registros de la tabla
 while ($Opc= mysqli_fetch_array($Reciente, MYSQLI_BOTH))
