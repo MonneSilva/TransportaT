@@ -1,12 +1,10 @@
 <body>
-	<h2>Pubicar Sugerencia</h2>
-	<form>
-		
-	<input type="text" name="tituloQueja" class="input" placeholder="Titulo" size="80">
+	<form class="formqs">
+	<h2 class="h2">Pubicar Sugerencia</h2>
+	<input type="text" name="tituloQueja" class="campo" placeholder="Titulo" size="80">
+	<textarea class="campo" placeholder="Descripción" cols="80" rows="6"></textarea>
 	<br><br>
-	<textarea class="input" placeholder="Descripción" ></textarea>
-	<br><br>
-	<input type="submit" name="">
+	<input type="submit" class="enviar">
 	
 	</form>
 </body>
