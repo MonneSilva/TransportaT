@@ -13,6 +13,7 @@
     <div id="cuerpo_fondo"></div>
     <div id="cuerpo_cont">   
         <link rel="stylesheet" type="text/css" href="css/body.css"> 
+        <link rel="stylesheet" type="text/css" href="css/qs.css">
     	<?php
 
     require_once 'src/'.$pagina.'/' . $pagina . '.php';
