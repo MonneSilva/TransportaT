@@ -1,6 +1,6 @@
 <!DOCTYPE>
 
-<html>    <!--Poner el metacharset><-->
+<html>    
 
 <head><meta  charset="utf-8">
 <title>Encargado</title>
@@ -10,17 +10,17 @@
 
 
     <div id="preferencias">
-    	<h4>Asignar preferencias </h4>
+    	<h2>Asignar preferencias </h2>
      <div id="preferencias"></div>
      <input type="text" id="campo" name="user" value="Nombre de inicio"><br><br>
-     <input type="text" id="campo" name="id_user" value="Id de usuario ">
+     <input type="text" id="campo" name="id_user" value="Id de usuario "><br><br>
 
       </div>
 
 	<div id="verQuejas">
-		<h4>Ver Quejas </h4>
-      <button id="btn-unidad">Por unidad</button>
-      <button id="btn-unidad">Por operador</button>
+		<h2>Ver Quejas </h2>
+      <button id="btn-unidad">Por unidad</button>   
+      <button id="btn-operador">Por operador</button>
 
 	</div>
 	
