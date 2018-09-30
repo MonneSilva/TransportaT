@@ -35,6 +35,7 @@
             </a></td>
                 <td> <a href="?link=queja">Quejas</a> </td>
                 <td><a href="?link=sugerencia">Sugerencia</a></td>
+                <td><a href="?link=registro">Registro</a></td>
             </table>
         </div>
 </body>
