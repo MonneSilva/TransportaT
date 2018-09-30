@@ -14,6 +14,8 @@
     <div id="cuerpo_cont">   
         <link rel="stylesheet" type="text/css" href="css/body.css"> 
         <link rel="stylesheet" type="text/css" href="css/qs.css">
+	 <link rel="stylesheet" type="text/css" href="css/registro.css">
+	    <link rel="stylesheet" type="text/css" href="css/encargado.css">
     	<?php
 
     require_once 'src/'.$pagina.'/' . $pagina . '.php';
