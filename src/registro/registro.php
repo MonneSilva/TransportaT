@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>    <!--Poner el metacharset><-->
+<html>
 
 <head><meta  charset="utf-8">
 <title>Registro</title>
